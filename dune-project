@@ -5,22 +5,21 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github toyboot4e/coml))
 
-(authors "Author Name")
+(authors "toyboot4e")
 
-(maintainers "Maintainer Name")
+(maintainers "toyboot4e")
 
-(license LICENSE)
+(license MIT)
 
-(documentation https://url/to/documentation)
+(documentation "https://github.com/toyboot4e/coml")
 
 (package
  (name coml)
  (synopsis "A short synopsis")
  (description "A longer description")
  (depends ocaml dune)
- (tags
-  (topics "to describe" your project)))
+ (tags ("competitive")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
