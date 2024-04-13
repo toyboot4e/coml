@@ -1,4 +1,6 @@
 (executable
  (public_name coml)
  (name main)
+ (flags
+  (:standard -warn-error "-unused-value-declaration"))
  (libraries coml num containers core iter batteries))
