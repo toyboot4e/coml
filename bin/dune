@@ -2,5 +2,5 @@
  (public_name coml)
  (name main)
  (flags
-  (:standard -warn-error "-unused-value-declaration"))
+   (:standard -warn-error -A))
  (libraries coml num containers core iter batteries))
