@@ -12,6 +12,11 @@ bug-reports: "https://github.com/toyboot4e/coml/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.14"}
+  "num"
+  "containers"
+  "core"
+  "iter"
+  "batteries"
   "odoc" {with-doc}
 ]
 build: [

@@ -1,4 +1,4 @@
 (executable
  (public_name coml)
  (name main)
- (libraries coml))
+ (libraries coml num containers core iter batteries))
